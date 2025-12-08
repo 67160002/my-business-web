@@ -10,8 +10,9 @@
       <img src="images/pamu logo.png" alt="Pamu Logo" width="300" />
     </header>
     <main>
+      <!-- 4.1 Contact Form -->
       <h1>ติดต่อเรา (Contact)</h1>
-      <form action="/register" method="POST">
+      <form action="/contact" method="POST">
         <fieldset>
           <legend>ข้อมูลส่วนตัว</legend>
           <label for="fname">ชื่อจริง:</label>
@@ -32,7 +33,7 @@
         <button type="submit">ส่งข้อมูล</button>
         <button type="reset">ยกเลิก</button>
       </form>
-      <!-- ที่อยู่บริษัท -->
+      <!-- 4.2 ที่อยู่บริษัท -->
       <section id="contact-info">
         <h2>ที่อยู่บริษัท</h2>
         <p>
@@ -44,6 +45,28 @@
           โทร: 02-001-5052
         </p>
       </section>
+      <!-- 4.3 embed Google Maps -->
+      <section id="map">
+        <h2>แผนที่</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7208390453675!2d100.55906037485565!3d13.7353437866548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ee2e390a8f5%3A0x1da41a6e552e495a!2sExchange%20Tower!5e0!3m2!1sen!2sth!4v1765218938598!5m2!1sen!2sth"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
+    <!-- Footer -->
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">กลับหน้าแรก</a></li>
+        </ul>
+      </nav>
+      <p>© 2025 Pamu Co., Ltd. All rights reserved.</p>
+    </footer>
   </body>
 </html>
