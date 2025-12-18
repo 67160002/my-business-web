@@ -82,3 +82,23 @@ header {
   align-items: center;
   text-align: center;
 }
+
+/* 3.Class Selectors */
+
+#hero {
+  min-height: 25vh;
+  background: linear-gradient(rgba(203, 203, 203, 0.5), rgba(46, 46, 46, 0.5)),
+    url("../images/hero.png") center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #292929;
+}
