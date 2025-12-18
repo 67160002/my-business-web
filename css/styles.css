@@ -8,8 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
 /* 2.Element Selectors */
 h1 {
   font-size: 2.5rem;
-  color: #0e0e0e;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -39,7 +39,7 @@ h3 {
 p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #374151;
+  color: #ffffff;
   margin-bottom: 12px;
 }
 
@@ -83,7 +83,7 @@ header {
   text-align: center;
 }
 
-/* 3.Class Selectors */
+/* 3,4. Class Selectors and ID Selector*/
 
 #hero {
   min-height: 25vh;
@@ -101,4 +101,10 @@ header {
   max-width: 700px;
   margin: 0 auto;
   color: #292929;
+}
+
+#header {
+  background-color: #131313;
+  padding: 23px;
+  text-align: center;
 }
