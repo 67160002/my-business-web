@@ -96,6 +96,10 @@ header {
   text-align: center;
 }
 
+#hero h1 {
+  font-size: 3vw;
+}
+
 #hero p {
   font-size: 1.2rem;
   max-width: 700px;
@@ -105,7 +109,7 @@ header {
 
 #header {
   background-color: #131313;
-  padding: 23px;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -127,8 +131,10 @@ header {
   flex: 1;
   box-shadow: 0 4px 10px rgb(214, 211, 211);
 }
-
+/* 5.Pseudo-class */
 .service:hover {
   background-color: #959595;
   transform: translateY(-5px);
 }
+
+/*  */
