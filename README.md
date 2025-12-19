@@ -19,37 +19,45 @@
 - services.html : หน้าบริการ (Services)
 - contact.html : หน้าติดต่อเรา (Contact)
 - images/ : โฟลเดอร์เก็บรูปภาพ
+
   - pamu logo.png
   - member1.jpg
   - member2.jpg
   - member3.jpg
-  - index.png
-  - about1.png
-  - about2.png
-  - Service.png
-  - contact1.png
-  - contact2.png
+  - index1.png
+  - index2.png
+  - about0.1.png
+  - about0.2.png
+  - service1.png
+  - service2.png
+  - contact0.1.png
+  - contact0.2.png
+  - contact0.3.png
+
 - README.md : เอกสารประกอบโปรเจกต์
 
 ## ลิงก์เข้าสู่หน้าต่างๆ
 
 ### [หน้าแรก](index.html)
 
-![index Page](images/index.png)
+![index Page](images/index1.png)
+![index Page](images/index2.png)
 
 ### [เกี่ยวกับเรา (About)](about.html)
 
-![About Page 1](images/about1.png)
-![About Page 2](images/about2.png)
+![About Page 1](images/about0.1.png)
+![About Page 2](images/about0.2.png)
 
 ### [บริการของเรา (Services)](services.html)
 
-![Services Page](images/Service.png)
+![Services Page](images/service1.png)
+![Services Page](images/service2.png)
 
 ### [ติดต่อเรา (Contact)](contact.html)
 
-![Contact Page 1](images/contact1.png)
-![Contact Page 2](images/contact2.png)
+![Contact Page 1](images/contact0.1.png)
+![Contact Page 2](images/contact0.2.png)
+![Contact Page 2](images/contact0.3.png)
 
 ## ผู้จัดทำ
 
