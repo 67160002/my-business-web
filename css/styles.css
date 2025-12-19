@@ -374,3 +374,30 @@ input[type="radio"] + label {
   margin-right: 20px;
   font-weight: normal;
 }
+
+/* Map and Contact info */
+
+#contact-info,
+#map-section {
+  max-width: 800px;
+  margin: 3rem auto;
+  background: #959595;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  border: 2px solid #71f00f;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+#contact-info:hover,
+#map-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgb(255, 255, 255);
+}
+
+#map-section iframe {
+  width: 100%;
+  border-radius: 15px;
+}
