@@ -127,6 +127,13 @@ header {
   text-align: center;
 }
 
+footer {
+  background-color: #131313; /* สีพื้นหลังเข้ม */
+  color: #ffffff; /* สีตัวอักษร */
+  text-align: center; /* จัดข้อความให้อยู่กลาง */
+  padding: 2rem 1rem; /* ระยะห่างด้านใน */
+}
+
 /* featured-services */
 #featured-services {
   padding: 40px 50px;
