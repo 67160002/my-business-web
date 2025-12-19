@@ -47,6 +47,14 @@ p {
   margin-bottom: 12px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -70,7 +78,7 @@ nav a:hover {
 
 header {
   background-color: #fceaea;
-  padding: 20px;
+  padding: 0.5rem 1rem;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -80,11 +88,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center; */
 }
 
 .logo {
@@ -96,6 +99,7 @@ header {
 /* 3,4. Class Selectors and ID Selector*/
 
 #hero {
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(203, 203, 203, 0.5), rgba(46, 46, 46, 0.5)),
     url("../images/hero.png") center / cover no-repeat;
@@ -147,4 +151,27 @@ header {
   transform: translateY(-5px);
 }
 
-/*  */
+/* button */
+.btn {
+  display: inline-block;
+  padding: 0.85rem 1.8rem;
+  background: linear-gradient(90deg, #aa15fa, #073def);
+  color: #1f2933;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* section */
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
