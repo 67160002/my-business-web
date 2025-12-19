@@ -262,3 +262,27 @@ footer {
 #shoe-recommendation ul {
   padding-left: 1.2rem;
 }
+
+/* Table */
+
+#packages-table fieldset {
+  border: none;
+}
+
+#packages-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+#packages-table th {
+  background: #6e6e6e;
+  padding: 0.75rem;
+}
+#packages-table td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+#packages-table tr:nth-child(even) {
+  background: #9e9e9e;
+}
