@@ -238,3 +238,27 @@ footer {
   border-left: 5px solid #85ff51;
   box-shadow: 0 30px 20px rgba(0, 0, 0, 0.08);
 }
+
+/* service */
+
+#shoe-recommendation,
+#express-delivery,
+#shoe-care {
+  background: linear-gradient(180deg, #959595, #b6b6b6);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#shoe-recommendation:hover,
+#express-delivery:hover,
+#shoe-care:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2), 0 4px 10px rgb(214, 211, 211);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#shoe-recommendation ul {
+  padding-left: 1.2rem;
+}
